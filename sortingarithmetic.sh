@@ -20,3 +20,5 @@ declare -A z
 z=$((($a%$b)+$c));
 echo "$a%$b + $c = $z";
 
+arr=($w $x $y $z)
+echo ${arr[@]}
